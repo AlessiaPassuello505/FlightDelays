@@ -5,6 +5,6 @@ from model.airport import Airport
 
 @dataclass
 class Tratta:
-    aeroportoP=Airport
-    aeroportoA=Airport
-    peso=float
+    aeroportoP: Airport
+    aeroportoA: Airport
+    peso: int
